@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.form {
+    background-color: rgba(0, 0, 0, 0.692);
+    margin: auto;
+    margin-top: 100px;
+    width: 35%;
+}
+
+@media (max-width:1000px) {
+    .form{
+        margin-top: 110px;
+        width: 60%;
+    }
+}
+
+@media (max-width:656px) {
+    .form{
+        margin-top: 120px;
+        width: 70%;
+    }
+}
+
+@media (max-width:456px) {
+    .form{
+        margin-top: 130px;
+        width: 90%;
+    }
+}
+
+.form-heading {
+    padding-top: 40px;
+    padding-left: 40px;
+    color: white;
+    font-weight: bolder;
+}
+
+.form-field{
+    margin: auto;
+}
+
+.input-fields {
+    display: block;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgba(36, 49, 49, 0.774);
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.input-fields::placeholder{
+    color: rgba(255, 255, 255, 0.26);
+}
+
+.submit-btn {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    display: block;
+    background-color: rgba(238, 65, 74, 0.76);
+    color: white;
+    font-weight: bold;
+}
+
+.submit-btn:hover{
+    background-color: rgba(238, 65, 74, 0.842);
+}
+
+.form-text{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.form-text .link-text{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-decoration: none;
+    color: rgb(86, 55, 224); 
+}

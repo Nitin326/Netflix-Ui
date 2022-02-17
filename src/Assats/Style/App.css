@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.landing {
+  background: linear-gradient(0deg, rgba(7, 7, 7, 0.685), rgba(13, 14, 14, 0.712)), url('../Images/frontback.jpg') repeat;
+  height: 110vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing .text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.landing .text h1 {
+  font-size: 50px;
+  color: white;
+  padding: 0 2px 0 2px;
+  width: 50%;
+  margin: auto;
+  font-weight: bolder;
+}
+
+@media (max-width:956px) {
+  .landing .text h1{
+    width: 70%;
+    font-size: 40px;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width:756px) {
+  .landing .text h1{
+    width: 90%;
+    font-size: 40px;
+    margin-top: 120px;
+  }
+}
+
+@media (max-width:576px) {
+  .landing .text h1{
+    width: 95%;
+    font-size: 40px;
+    margin-top: 100px;
+  }
+}
+
+.landing .text h2 {
+  font-size: 28px;
+  padding: 0 5px 0 5px;
+  color: white;
+  margin: 15px 0 20px 0;
+}
+
+.ready-text {
+  font-size: 20px;
+  color: white;
+  padding: 0 5px 0 5px;
+  text-align: center;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.input-field .input-box {
+  padding-left: 10px;
+  width: 45%;
+  border: 1px solid yellowgreen;
+  outline: none;
+}
+
+.input-field .bttn {
+  padding: 15px;
+  background-color: #e7212b;
+  border: none;
+  cursor: pointer;
+}
+
+.input-field .bttn:hover {
+  background-color: #d1000a;
+}
+
+/* faq Section */
+
+.faq {
+  background-color: black;
+}
+
+.faq h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.faq .accordion {
+  width: 50%;
+  margin: auto;
+}
+
+@media (max-width:776px) {
+  .faq .accordion {
+    width: 80%;
+  }
+
+  .faq h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+/* Tv, child Section */
+
+.section {
+  background-color: black;
+  color: white;
+}
+
+.sec-text {
+  padding-top: 150px;
+}
+
+.sec-text h1 {
+  font-size: 50px;
+}
+
+.sec-text p {
+  font-size: 22px;
+}
+
+.sec-image {
+  display: block;
+  margin: auto;
+  height: 80%;
+  width: 80%;
+  padding: 30px 10px 30px 10px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+@media (max-width:991px) {
+  .sec-text {
+    padding-top: 50px;
+    text-align: center;
+  }
+}
+
+@media (max-width:576px) {
+  .sec-text h1{
+    font-size: 40px;
+  }
+}
+
+/* Section Phone */
+
+.sec-phone-text {
+  padding-top: 120px;
+  margin-bottom: 40px;
+}
+
+.sec-phone-text h1 {
+  font-size: 50px;
+}
+
+.sec-phone-text p {
+  font-size: 22px;
+}
+
+.sec-phone-image {
+  display: block;
+  margin: auto;
+  height: 90%;
+  width: 80%;
+  padding: 30px 10px 30px 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+@media (max-width:991px) {
+  .sec-phone-text{
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width:576px) {
+  .sec-phone-text h1{
+    font-size: 40px;
+  }
+}
